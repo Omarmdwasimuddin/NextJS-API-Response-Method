@@ -134,3 +134,21 @@ export async function GET(request:Request) {
 }
 ```
 ---
+
+### Redirect Response
+![](https://imgur.com/4A2TF4P.png)
+
+```bash
+import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
+
+
+export async function GET(request:Request) {
+
+    
+    return NextResponse.json(
+        redirect("/")
+    )
+}
+```
+---
