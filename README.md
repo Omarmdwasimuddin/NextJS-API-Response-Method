@@ -1,0 +1,1 @@
+# NextJS-API-Response-Method
