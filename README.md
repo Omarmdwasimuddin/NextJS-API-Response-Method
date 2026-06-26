@@ -108,3 +108,29 @@ export async function GET(request:Request) {
 }
 ```
 ---
+
+### Cookie Response
+![](https://imgur.com/tHl4l6w.png)
+![](https://imgur.com/Rnm98UQ.png)
+
+```bash
+import { NextResponse } from "next/server";
+
+
+export async function GET(request:Request) {
+
+    
+    return NextResponse.json(
+        {},
+        {
+            status: 200,
+            headers:{
+                "token":"abc-123-xyz",
+                "token2":"eea-014-hello01",
+                "Set-Cookie":"Auth=123;Path=/;"
+            }
+        }
+    )
+}
+```
+---
