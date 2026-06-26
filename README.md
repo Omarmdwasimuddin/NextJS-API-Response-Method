@@ -65,7 +65,7 @@ export async function GET(request:Request) {
 ---
 
 ### Headers Response
-![](https://imgur.com/G9bp9UR.png)
+![](https://imgur.com/rC1kYyN.png)
 
 ```bash
 import { NextResponse } from "next/server";
