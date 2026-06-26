@@ -63,3 +63,11 @@ export async function GET(request:Request) {
 }
 ```
 ---
+
+### Headers Response
+![](.png)
+
+```bash
+
+```
+---
