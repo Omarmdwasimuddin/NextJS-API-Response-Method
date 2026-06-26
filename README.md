@@ -65,9 +65,22 @@ export async function GET(request:Request) {
 ---
 
 ### Headers Response
-![](.png)
+![](https://imgur.com/G9bp9UR.png)
 
 ```bash
+import { NextResponse } from "next/server";
 
+
+export async function GET(request:Request) {
+
+    
+    return NextResponse.json(
+        {},
+        {
+            status: 200,
+            headers:{"token":"abc-123-xyz"}
+        }
+    )
+}
 ```
 ---
