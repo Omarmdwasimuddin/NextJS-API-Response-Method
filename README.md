@@ -45,3 +45,11 @@ export async function GET(request:Request) {
 }
 ```
 ---
+
+### Status Code Response
+![](.png)
+
+```bash
+
+```
+---
