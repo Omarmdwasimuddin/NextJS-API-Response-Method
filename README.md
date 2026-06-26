@@ -47,9 +47,19 @@ export async function GET(request:Request) {
 ---
 
 ### Status Code Response
-![](.png)
+![](https://imgur.com/erWwCum.png)
 
 ```bash
+import { NextResponse } from "next/server";
 
+
+export async function GET(request:Request) {
+
+    
+    return NextResponse.json(
+        {},
+        {status: 400}
+    )
+}
 ```
 ---
