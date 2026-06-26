@@ -1,1 +1,9 @@
-# NextJS-API-Response-Method
+## NextJS API---> Response Method
+
+###
+![]()
+
+```bash
+
+```
+---
