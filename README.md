@@ -4,10 +4,10 @@
 ![](https://imgur.com/ZonmeVZ.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
@@ -26,10 +26,10 @@ export async function GET(request:Request) {
 ![](https://imgur.com/SXgf2Fx.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
@@ -50,7 +50,7 @@ export async function GET(request:Request) {
 ![](https://imgur.com/erWwCum.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
 export async function GET(request:Request) {
@@ -68,10 +68,10 @@ export async function GET(request:Request) {
 ![](https://imgur.com/rC1kYyN.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
@@ -89,10 +89,10 @@ export async function GET(request:Request) {
 ![](https://imgur.com/x0hdpKx.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
@@ -114,10 +114,10 @@ export async function GET(request:Request) {
 ![](https://imgur.com/Rnm98UQ.png)
 
 ```bash
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
@@ -140,10 +140,10 @@ export async function GET(request:Request) {
 
 ```bash
 import { redirect } from "next/navigation";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 
-export async function GET(request:Request) {
+export async function GET(request:NextRequest) {
 
     
     return NextResponse.json(
